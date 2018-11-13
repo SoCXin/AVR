@@ -1,0 +1,63 @@
+// Portmap IC Development Board
+// 
+// Author:	Christoph Steup
+//
+// This file is part of avr-halib. See COPYING for copyright details.
+
+
+#pragma once
+
+#include <stdint.h>
+
+// LedPortmap
+portmap Led1 for atmega1281
+{
+	pin led: c 2;
+	property onLevel = true;
+};
+ 
+// LedPortmap
+portmap Led2 for atmega1281
+{
+	pin led: c 3;
+	property onLevel = true;
+};
+
+// LedPortmap
+portmap Led3 for atmega1281
+{
+	pin led: c 0;
+	property onLevel = true;
+};
+
+// LedPortmap
+portmap Led4 for atmega1281
+{
+	pin led: c 1;
+	property onLevel = true;
+};
+ 
+// ButtonPortmap
+portmap Button0 for atmega1281
+{
+	pin button: d 0;
+	property pressedLevel = false;
+	property usePullup = true;
+};
+ 
+// ButtonPortmap
+portmap Button1 for atmega1281
+{
+	pin button: d 1;
+	property pressedLevel = false;
+	property usePullup = true;
+};
+
+// ButtonBlockPortmap
+portmap ButtonBlock01 for atmega1281
+{
+	pins button01: d 0-1;
+	vport buttons { button01 };
+	property pressedLevel = 0x00;
+	property usePullup = 0xff;
+};

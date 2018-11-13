@@ -1,0 +1,21 @@
+// This file is part of avr-halib. See COPYING for copyright details.
+
+portmap LcdHd44780Board for at90can128
+{
+	property out = 0xff;
+	property in = 0x00;
+	
+	pin data4: e 4;
+	pin data5: e 5;
+	pin data6: e 6;
+	pin data7: e 7;
+	pin enable: d 7;
+	pin rs:f 7;
+	pin rw:f 6;
+	
+	
+	vport data 
+	{
+		data4, data5, data6, data7
+	};
+};

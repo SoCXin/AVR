@@ -1,31 +1,27 @@
-﻿# [AVR](https://github.com/mcuyun/AVR) 
-
-AVR单片机开发资源库
-
-[![sites](mcuyun/mcuyun.png)](http://www.mcuyun.com)
-
-#### 更多8051：[8051单片机](https://github.com/mcuyun/8051) 
-
-#### 更多关于：[mcuyun](https://github.com/mcuyun/whyme)可访问 www.mcuyun.com
-
----
-
-## 简介
+﻿# [AVR](https://github.com/sochub/AVR) 
+[![sites](SoC/qitas.png)](http://www.qitas.cn) 
+####  qitas@qitas.cn
+#### 归属：[8051](https://github.com/sochub/8051) 
+### [芯片简介](https://github.com/sochub/AVR/wiki)
 
 AVR单片机使用最多是在arduino，所以对纯粹的源码需求不大，可以直接通过arduino开发工具直接开发
 
----
 
-## 组成
+## [相关型号](https://github.com/sochub/AVR)
 
-#### ATmega328
+* ATmega328
+* ATmega16
+* ATmega128
 
-#### ATmega16
+### [资源组成](https://github.com/sochub/AVR)
 
-#### ATmega128
+* [参考文档](docs/)
+* [参考资源](src/)
+* [模板工程](demo/)
 
----
+### [替换方案](https://github.com/sochub/AVR)
 
-###  www.mcuyun.com   |   qitas@qitas.cn
+* [N76E003](https://github.com/sochub/N76E003) 
 
+##  [SoC资源平台](http://www.qitas.cn)
 

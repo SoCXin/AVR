@@ -1,27 +1,23 @@
-﻿# [AVR](https://github.com/sochub/AVR) 
-[![sites](SoC/qitas.png)](http://www.qitas.cn) 
-####  qitas@qitas.cn
-#### 归属：[8051](https://github.com/sochub/8051) 
-### [芯片简介](https://github.com/sochub/AVR/wiki)
+﻿# [AVR](https://github.com/SoCXin/AVR) 
 
-AVR单片机使用最多是在arduino，所以对纯粹的源码需求不大，可以直接通过arduino开发工具直接开发
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://SoC.Xin) 
 
+#### [Vendor](https://github.com/SoCXin/Vendor)：[ATMEL](https://www.microchip.com/)
+#### [Level](https://github.com/SoCXin/Level)：6/24MHz 
 
-## [相关型号](https://github.com/sochub/AVR)
+### [简介](https://github.com/SoCXin/AVR/wiki)
 
-* ATmega328
-* ATmega16
-* ATmega128
+[AVR](https://www.microchip.com/) 单片机指的是1997年由ATMEL公司研发出的增强型内置Flash的RISC(Reduced Instruction Set Computer) 精简指令集高速8位单片机，普及的关键因素Arduino
 
-### [资源组成](https://github.com/sochub/AVR)
+1992年Alf-Egil Bogen和Vegard Wollan在瑞典理工学院的毕业论文中提到了一种使用闪存程序存储器的，使用RISC指令集的微控制器。在接下来的几年里，Alf-Egil和Vegard不断完善设计，并加入一些集成外设，1997年，加入Atmel公司挪威设计中心的A先生和V先生，利用Atmel公司的Flash新技术，共同研发出RISC精简指令集高速8位单片机，简称AVR。
 
-* [参考文档](docs/)
-* [参考资源](src/)
-* [模板工程](demo/)
+* 哈佛结构，具备1MIPS / MHz的高速运行处理能力；
+* 32个通用工作寄存器，克服了8051 MCU采用单一ACC进行处理造成的瓶颈现象；
 
-### [替换方案](https://github.com/sochub/AVR)
+## [相关芯片](https://github.com/SoCXin/AVR)
 
-* [N76E003](https://github.com/sochub/N76E003) 
+* Tiny11/12/13/15/26/28
+* AT90S1200/2313/8515/8535
+* ATmega8/16/32/64/128
 
-##  [SoC资源平台](http://www.qitas.cn)
-
+###  [SoC芯平台](http://SoC.Xin) 

@@ -1,13 +1,13 @@
-﻿# [AVR](https://github.com/SoCXin/AVR)
+﻿# [MEGA328P](https://github.com/SoCXin/MEGA328P)
 
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://SoC.Xin)
 
 #### [Vendor](https://github.com/SoCXin/Vendor)：[microchip](https://www.microchip.com/)
 #### [Level](https://github.com/SoCXin/Level)：6/24MHz
 
-### [简介](https://github.com/SoCXin/AVR/wiki)
+### [简介](https://github.com/SoCXin/MEGA328P/wiki)
 
-[AVR](https://www.microchip.com/) 单片机指的是1997年由ATMEL公司研发出的增强型内置Flash的RISC(Reduced Instruction Set Computer) 精简指令集高速8位单片机，普及的关键因素Arduino
+[MEGA328P](https://www.microchip.com/) 单片机指的是1997年由ATMEL公司研发出的增强型内置Flash的RISC(Reduced Instruction Set Computer) 精简指令集高速8位单片机，普及的关键因素Arduino
 
 1992年Alf-Egil Bogen和Vegard Wollan在瑞典理工学院的毕业论文中提到了一种使用闪存程序存储器的，使用RISC指令集的微控制器。在接下来的几年里，Alf-Egil和Vegard不断完善设计，并加入一些集成外设，1997年，加入Atmel公司挪威设计中心的A先生和V先生，利用Atmel公司的Flash新技术，共同研发出RISC精简指令集高速8位单片机，简称AVR。
 
